@@ -23,7 +23,7 @@ done
 
 version=$(node -p 'require(process.argv[1]).version' "$root/package.json")
 name="cc-shim-$version"
-paths="cc-shim.mjs _brand.sh conf.d.example package.json README.md install.sh"
+paths="cc-shim.mjs _brand.sh conf.d.example package.json README.md install.sh LICENSE"
 
 work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT

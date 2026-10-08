@@ -4,6 +4,7 @@
   "version": "0.1.1",
   "type": "module",
   "description": "The one claude on your PATH: runs your conf.d fragments, appends your system prompt, then hands over to Claude Code.",
+  "license": "MIT",
   "bin": {
     "cc-shim": "cc-shim.mjs"
   },

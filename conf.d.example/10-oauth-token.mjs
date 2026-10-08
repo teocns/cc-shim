@@ -6,7 +6,7 @@
 // so nothing else has to change. The child cannot refresh, so whatever hands
 // over the token must give it one with life left.
 //
-// Contract reminders (shim/README.md, "The conf.d contract"):
+// Contract reminders (docs/reference.md, "The conf.d contract"):
 //   * runs on EVERY claude invocation, including `claude --version` and every
 //     SDK subprocess — be fast and side-effect free
 //   * it runs in a worker thread: set process.env, and that is what is imported;
